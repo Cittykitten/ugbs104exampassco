@@ -395,7 +395,7 @@ function displayQuestion() {
 }
 
 function startTimer() {
-    timeLeft = 20;          // ← changed to 20 seconds
+    timeLeft = 30;          // ← changed to 20 seconds
     updateTimerDisplay();
     if (timer) clearInterval(timer);
     timer = setInterval(() => {
