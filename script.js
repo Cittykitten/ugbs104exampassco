@@ -337,7 +337,7 @@ let score = 0;
 let selectedQuestions = [];
 let userAnswers = [];
 let timer;
-let timeLeft = 20;          // ← changed to 20 seconds
+let timeLeft = 30;          // ← changed to 20 seconds
 let answered = false;
 
 const questionContainer = document.querySelector('.question-container');
